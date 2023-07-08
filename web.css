@@ -72,6 +72,9 @@ main{
     max-width:1150px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 150px;
+}
 .about{
     padding: 150px;
     background-color: antiquewhite;
@@ -85,6 +88,7 @@ main{
     font-size: 35px;
     font-weight: 700;
 }
+
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -99,4 +103,54 @@ main{
     text-align: center;
     color: #757575;
     font-size: 18px;
+}
+.info-title{
+    text-decoration-color: none;
+}
+#what-i-do{
+    padding-top: 30px 150px;
+}
+/* skill container */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+.skill-description{
+    color: rgb(79, 85, 85);
+
+}
+/* resume sectiion */
+.column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+.resume-item-description,.resume-item-institute{
+    color: #757575;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 30px 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
