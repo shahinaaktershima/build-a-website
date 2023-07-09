@@ -1,0 +1,121 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+.menu-bar{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.menus > ul a{
+    text-decoration: none;
+}
+.menus-head{
+    background-image: url("./images/header_bg.png"),url("./images/developer.png");
+    background-position: bottom right,top left;
+    background-repeat: no-repeat;
+    background-color: #dce7e4;
+  
+
+}
+.head-title{
+    margin-right: 50px;
+}
+.head{
+    color: red;
+}
+.btn{
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 4px;
+    padding: 25px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 30px 0px 150px ;
+}
+.box-img .box-item{
+    max-width: 500px;
+}
+.box-head{
+    font-size: 40px;
+    font-weight: 700px;
+}
+/* main section */
+.box-contain{
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 110px;
+    padding: 150px;
+}
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.icon-b{
+    margin-top: 110px;
+    background-color:white;
+    text-align: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+.whatido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    
+}
+.box-shad{
+    padding:30px ;
+    box-shadow: 0px 5px 10px 0px;
+}
+
+.box2{
+    display: flex;
+    gap: 30px;
+}
+.box-h{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.box-coontent{
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+/* foot section */
+footer{
+    background-color: aquamarine;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 150px 200px;
+}
+input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    padding:18px 30px;
+    margin-bottom: 30px ;
+
+}
+
+
+
